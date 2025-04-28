@@ -1,0 +1,119 @@
+.welcome-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  
+  .welcome-content {
+    margin-bottom: 40px;
+  }
+  
+  .welcome-subtitle {
+    color: #777;
+    margin: 10px 0 30px 0;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .radio-options {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .radio-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .radio-option.selected input[type="radio"] {
+    accent-color: #6a5acd;
+  }
+  
+  .signin-subtitle {
+    color: #777;
+    margin: 10px 0 20px 0;
+    font-size: 14px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 15px;
+  }
+  
+  .account-container {
+    padding: 20px;
+  }
+  
+  .profile-section {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .profile-image-container {
+    margin-right: 15px;
+  }
+  
+  .profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #777;
+    overflow: hidden;
+  }
+  
+  .profile-info {
+    position: relative;
+  }
+  
+  .profile-info h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .profile-info p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    background-color: #6a5acd;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  
+  .profile-description {
+    margin-top: 20px;
+    padding: 20px 0;
+    border-bottom: 1px dashed #ddd;
+  }
+  
+  .profile-description p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .logout-btn {
+    margin-top: 30px;
+  }
